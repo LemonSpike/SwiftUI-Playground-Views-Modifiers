@@ -7,16 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD0E0CBE261911FD00AF19BD /* EnvironmentModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0E0CBD261911FD00AF19BD /* EnvironmentModifiers.swift */; };
+		FD0E0CC22619126C00AF19BD /* ViewsAsProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0E0CC12619126C00AF19BD /* ViewsAsProperties.swift */; };
+		FD0E0CC5261912C700AF19BD /* ViewComposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0E0CC4261912C700AF19BD /* ViewComposition.swift */; };
+		FD0E0CC82619135800AF19BD /* CustomModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0E0CC72619135800AF19BD /* CustomModifiers.swift */; };
+		FD0E0CCB2619145B00AF19BD /* CustomContainers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0E0CCA2619145B00AF19BD /* CustomContainers.swift */; };
+		FD367F1E261B60C000BB0D9A /* ModifiersChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD367F1D261B60C000BB0D9A /* ModifiersChallenge.swift */; };
 		FDBCEFBA2618FC8B00AA4284 /* ViewsAndModifiersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBCEFB92618FC8B00AA4284 /* ViewsAndModifiersApp.swift */; };
-		FDBCEFBC2618FC8B00AA4284 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBCEFBB2618FC8B00AA4284 /* ContentView.swift */; };
+		FDBCEFBC2618FC8B00AA4284 /* OrderOfModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBCEFBB2618FC8B00AA4284 /* OrderOfModifiers.swift */; };
 		FDBCEFBE2618FC8E00AA4284 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDBCEFBD2618FC8E00AA4284 /* Assets.xcassets */; };
 		FDBCEFC12618FC8E00AA4284 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDBCEFC02618FC8E00AA4284 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FD0E0CBD261911FD00AF19BD /* EnvironmentModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentModifiers.swift; sourceTree = "<group>"; };
+		FD0E0CC12619126C00AF19BD /* ViewsAsProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsAsProperties.swift; sourceTree = "<group>"; };
+		FD0E0CC4261912C700AF19BD /* ViewComposition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewComposition.swift; sourceTree = "<group>"; };
+		FD0E0CC72619135800AF19BD /* CustomModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifiers.swift; sourceTree = "<group>"; };
+		FD0E0CCA2619145B00AF19BD /* CustomContainers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomContainers.swift; sourceTree = "<group>"; };
+		FD367F1D261B60C000BB0D9A /* ModifiersChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifiersChallenge.swift; sourceTree = "<group>"; };
 		FDBCEFB62618FC8B00AA4284 /* ViewsAndModifiers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewsAndModifiers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDBCEFB92618FC8B00AA4284 /* ViewsAndModifiersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsAndModifiersApp.swift; sourceTree = "<group>"; };
-		FDBCEFBB2618FC8B00AA4284 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FDBCEFBB2618FC8B00AA4284 /* OrderOfModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderOfModifiers.swift; sourceTree = "<group>"; };
 		FDBCEFBD2618FC8E00AA4284 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDBCEFC02618FC8E00AA4284 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FDBCEFC22618FC8E00AA4284 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,7 +66,13 @@
 			isa = PBXGroup;
 			children = (
 				FDBCEFB92618FC8B00AA4284 /* ViewsAndModifiersApp.swift */,
-				FDBCEFBB2618FC8B00AA4284 /* ContentView.swift */,
+				FDBCEFBB2618FC8B00AA4284 /* OrderOfModifiers.swift */,
+				FD0E0CBD261911FD00AF19BD /* EnvironmentModifiers.swift */,
+				FD0E0CC12619126C00AF19BD /* ViewsAsProperties.swift */,
+				FD0E0CC4261912C700AF19BD /* ViewComposition.swift */,
+				FD0E0CC72619135800AF19BD /* CustomModifiers.swift */,
+				FD0E0CCA2619145B00AF19BD /* CustomContainers.swift */,
+				FD367F1D261B60C000BB0D9A /* ModifiersChallenge.swift */,
 				FDBCEFBD2618FC8E00AA4284 /* Assets.xcassets */,
 				FDBCEFC22618FC8E00AA4284 /* Info.plist */,
 				FDBCEFC32618FC8E00AA4284 /* ViewsAndModifiers.entitlements */,
@@ -140,7 +158,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDBCEFBC2618FC8B00AA4284 /* ContentView.swift in Sources */,
+				FD367F1E261B60C000BB0D9A /* ModifiersChallenge.swift in Sources */,
+				FD0E0CCB2619145B00AF19BD /* CustomContainers.swift in Sources */,
+				FD0E0CBE261911FD00AF19BD /* EnvironmentModifiers.swift in Sources */,
+				FD0E0CC5261912C700AF19BD /* ViewComposition.swift in Sources */,
+				FD0E0CC22619126C00AF19BD /* ViewsAsProperties.swift in Sources */,
+				FD0E0CC82619135800AF19BD /* CustomModifiers.swift in Sources */,
+				FDBCEFBC2618FC8B00AA4284 /* OrderOfModifiers.swift in Sources */,
 				FDBCEFBA2618FC8B00AA4284 /* ViewsAndModifiersApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +305,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kasprasolutions.ViewsAndModifiers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -303,6 +328,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kasprasolutions.ViewsAndModifiers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
